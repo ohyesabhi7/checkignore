@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec generated="20190318 22:13:46" type="library" name="autoit" format="ROBOT">
+<version>0.4</version>
+<scope>global</scope>
+<namedargs>yes</namedargs>
+<doc>Documentation for library ``autoit``.</doc>
+<kw name="Auto It Set Option">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>Changes the operation of various AutoIt functions/parameters
+:param option: The option to change
+:param param: The parameter (varies by option).
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Clip Get">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param buf_size:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Clip Put">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param value:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Click">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param text:
+:param control:
+:param button:
+:param clicks:
+:param x:
+:param y:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Click By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param handle:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Command">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param control:
+:param command:
+:param extra:
+:param buf_size:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Command By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param hwnd:
+:param h_ctrl:
+:param command:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Disable">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param control:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Disable By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param hwnd:
+:param h_ctrl:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Enable">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param control:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Enable By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param hwnd:
+:param h_ctrl:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Focus">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param control:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Focus By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param hwnd:
+:param h_ctrl:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Get Focus">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Get Focus By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param hwnd:
+:param buf_size:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Get Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param hwnd:
+:param control:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Get Handle As Text">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param control:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Get Pos">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param control:
+:param text:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Get Pos By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param hwnd:
+:param h_ctrl:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Get Text">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param control:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Get Text By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param hwnd:
+:param h_ctrl:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Hide">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param control:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Hide By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param hwnd:
+:param h_ctrl:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control List View">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param control:
+:param command:
+:param args:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control List View By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param hwnd:
+:param h_ctrl:
+:param command:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Move">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param control:
+:param x:
+:param y:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Move By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param hwnd:
+:param h_ctrl:
+:param x:
+:param y:
+:param width:
+:param height:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Send">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param control:
+:param send_text:
+:param mode:
+flag = 0 (default), Text contains special characters like + to indicate
+    SHIFT and {LEFT} to indicate left arrow.
+flag = 1, keys are sent raw.
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Send By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param hwnd:
+:param h_ctrl:
+:param send_text:
+:param mode:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Set Text">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param control:
+:param control_text:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Set Text By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param hwnd:
+:param h_ctrl:
+:param control_text:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Show">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param control:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Show By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param hwnd:
+:param h_ctrl:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Tree View">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param control:
+:param command:
+:param args:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Control Tree View By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param hwnd:
+:param h_ctrl:
+:param command:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Drive Map Add">
+<arguments>
+<arg>device</arg>
+<arg>share</arg>
+<arg>flag=0</arg>
+<arg>user=</arg>
+<arg>pwd=</arg>
+<arg>buf_size=256</arg>
+</arguments>
+<doc>:param device:
+:param share:
+:param flag: 0 = default
+    1 = Persistant mapping
+    8 = Show authentication dialog if required
+:param user:
+:param pwd:
+:param buf_size:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Drive Map Del">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param device:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Drive Map Get">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param device:
+:param buf_size:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Error">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Is Admin">
+<arguments>
+</arguments>
+<doc>:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Mouse Click">
+<arguments>
+<arg>button=left</arg>
+<arg>x=-2147483647</arg>
+<arg>y=-2147483647</arg>
+<arg>clicks=1</arg>
+<arg>speed=-1</arg>
+</arguments>
+<doc>:param button:
+:param x:
+:param y:
+:param clicks:
+:param speed:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Mouse Click Drag">
+<arguments>
+<arg>x1</arg>
+<arg>y1</arg>
+<arg>x2</arg>
+<arg>y2</arg>
+<arg>button=left</arg>
+<arg>speed=-1</arg>
+</arguments>
+<doc>:param x1:
+:param y1:
+:param x2:
+:param y2:
+:param button:
+:param speed:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Mouse Down">
+<arguments>
+<arg>button=left</arg>
+</arguments>
+<doc>:param button:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Mouse Get Cursor">
+<arguments>
+</arguments>
+<doc>:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Mouse Get Pos">
+<arguments>
+</arguments>
+<doc>:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Mouse Move">
+<arguments>
+<arg>x</arg>
+<arg>y</arg>
+<arg>speed=-1</arg>
+</arguments>
+<doc>:param x:
+:param y:
+:param speed:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Mouse Up">
+<arguments>
+<arg>button=left</arg>
+</arguments>
+<doc>:param button:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Mouse Wheel">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param direction: "up" or "down"
+:param clicks:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Opt">
+<arguments>
+<arg>option</arg>
+<arg>value</arg>
+</arguments>
+<doc>:param option:
+:param value:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Pixel Checksum">
+<arguments>
+<arg>left</arg>
+<arg>top</arg>
+<arg>right</arg>
+<arg>bottom</arg>
+<arg>step=1</arg>
+</arguments>
+<doc>:param left:
+:param top:
+:param right:
+:param bottom:
+:param step:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Pixel Get Color">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param x:
+:param y:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Pixel Search">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param left:
+:param top:
+:param right:
+:param bottom:
+:param col:
+:param var:
+:param step:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Process Close">
+<arguments>
+<arg>process</arg>
+</arguments>
+<doc>Terminates a named process.</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Process Exists">
+<arguments>
+<arg>process</arg>
+</arguments>
+<doc>:param process:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Process Set Priority">
+<arguments>
+<arg>process</arg>
+<arg>priority</arg>
+</arguments>
+<doc>Changes the priority of a process
+:param process: The name or PID of the process to check.
+:param priority:A flag which determines what priority to set
+    0 - Idle/Low
+    1 - Below Normal (Not supported on Windows 95/98/ME)
+    2 - Normal
+    3 - Above Normal (Not supported on Windows 95/98/ME)
+    4 - High
+    5 - Realtime (Use with caution, may make the system unstable)
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Process Wait">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>Pauses script execution until a given process exists.
+:param process:
+:param timeout:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Process Wait Close">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>Pauses script execution until a given process does not exist.
+:param process:
+:param timeout:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Run">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param filename:
+:param work_dir:
+:param show_flag:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Run As">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>Runs an external program.
+:param user: username The user name to use.
+:param domain: The domain name to use.
+:param password: The password to use.
+:param logon_flag: 0 = do not load the user profile, 1 = (default) load
+    the user profile, 2 = use for net credentials only
+:param filename: The name of the executable (EXE, BAT, COM, or PIF) to run.
+:param work_dir: The working directory.
+:param show_flag: The "show" flag of the executed program:
+    SW_HIDE = Hidden window
+    SW_MINIMIZE = Minimized window
+    SW_MAXIMIZE = Maximized window
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Run As Wait">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>Runs an external program.
+:param user: username The user name to use.
+:param domain: The domain name to use.
+:param password: The password to use.
+:param logon_flag: 0 = do not load the user profile, 1 = (default) load
+    the user profile, 2 = use for net credentials only
+:param filename: The name of the executable (EXE, BAT, COM, or PIF) to run.
+:param work_dir: The working directory.
+:param show_flag: The "show" flag of the executed program:
+    SW_HIDE = Hidden window
+    SW_MINIMIZE = Minimized window
+    SW_MAXIMIZE = Maximized window
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Run Wait">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param filename:
+:param work_dir:
+:param show_flag:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Send">
+<arguments>
+<arg>send_text</arg>
+<arg>mode=0</arg>
+</arguments>
+<doc>Sends simulated keystrokes to the active window.
+:param send_text:
+:param mode: Changes how "keys" is processed:
+    flag = 0 (default), Text contains special characters like + and ! to
+     indicate SHIFT and ALT key presses.
+    flag = 1, keys are sent raw.
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Shutdown">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param code: The shutdown code is a combination of the following values:
+    0 = Logoff
+    1 = Shutdown
+    2 = Reboot
+    4 = Force
+    8 = Power down
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Statusbar Get Text">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param text:
+:param part: The "part" number of the status bar to read - the default
+    is 1. 1 is the first possible part and usually the one that contains
+    the useful messages like "Ready" "Loading...", etc.
+:param buf_size:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Statusbar Get Text By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param hwnd:
+:param part:
+:param buf_size:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Tooltip">
+<arguments>
+<arg>tip</arg>
+<arg>x=-2147483647</arg>
+<arg>y=-2147483647</arg>
+</arguments>
+<doc>:param tip:
+:param x:
+:param y:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Activate">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>Activates (gives focus to) a window.
+:param title:
+:param text:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Activate By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param handle:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Active">
+<arguments>
+<arg>title</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param text:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Active By Handle">
+<arguments>
+<arg>handle</arg>
+</arguments>
+<doc>:param handle:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Close">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param text:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Close By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param handle:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Exists">
+<arguments>
+<arg>title</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>Checks to see if a specified window exists.
+:param title: The title of the window to check.
+:param text: The text of the window to check.
+:return: Returns 1 if the window exists, otherwise returns 0.</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Exists By Handle">
+<arguments>
+<arg>handle</arg>
+</arguments>
+<doc>:param handle:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Get Caret Pos">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>Returns the coordinates of the caret in the foreground window
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Get Class List">
+<arguments>
+<arg>title</arg>
+<arg>buf_size=200</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param text:
+:param buf_size:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Get Class List By Handle">
+<arguments>
+<arg>handle</arg>
+<arg>buf_size=200</arg>
+</arguments>
+<doc>:param handle:
+:param buf_size:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Get Client Size">
+<arguments>
+<arg>title</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param text:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Get Client Size By Handle">
+<arguments>
+<arg>handle</arg>
+</arguments>
+<doc>:param handle:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Get Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param text:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Get Handle As Text">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param text:
+:param buf_size:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Get Pos">
+<arguments>
+<arg>title</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param text:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Get Pos By Handle">
+<arguments>
+<arg>handle</arg>
+</arguments>
+<doc>:param handle:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Get Process">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param text:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Get Process By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param handle:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Get State">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>Retrieves the state of a given window.
+:param title:
+:param text:
+:return:
+1 = Window exists
+2 = Window is visible
+4 = Windows is enabled
+8 = Window is active
+16 = Window is minimized
+32 = Windows is maximized</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Get State By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param handle:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Get Text">
+<arguments>
+<arg>title</arg>
+<arg>buf_size=256</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param text:
+:param buf_size:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Get Text By Handle">
+<arguments>
+<arg>handle</arg>
+<arg>buf_size=256</arg>
+</arguments>
+<doc>:param handle:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Get Title">
+<arguments>
+<arg>title</arg>
+<arg>buf_size=256</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param text:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Get Title By Handle">
+<arguments>
+<arg>handle</arg>
+<arg>buf_size=256</arg>
+</arguments>
+<doc>:param handle:
+:param buf_size:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Kill">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param text:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Kill By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param handle:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Menu Select Item">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>Usage:
+    win_menu_select_item("[CLASS:Notepad]", "", u"文件(&amp;F)", u"退出(&amp;X)")
+:param title:
+:param text:
+:param items:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Menu Select Item By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param handle:
+:param items:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Minimize All">
+<arguments>
+</arguments>
+<doc>:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Minimize All Undo">
+<arguments>
+</arguments>
+<doc>:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Move">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param text:
+:param x:
+:param y:
+:param width:
+:param height:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Move By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param handle:
+:param x:
+:param y:
+:param width:
+:param height:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Set On Top">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param flag: 1=set on top flag, 0 = remove on top flag
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Set On Top By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param handle:
+:param flag:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Set State">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param flag: The "show" flag of the executed program:
+    SW_HIDE = Hide window
+    SW_SHOW = Shows a previously hidden window
+    SW_MINIMIZE = Minimize window
+    SW_MAXIMIZE = Maximize window
+    SW_RESTORE = Undoes a window minimization or maximization
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Set State By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param handle:
+:param flag:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Set Title">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param new_title:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Set Title By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param handle:
+:param new_title:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Set Trans">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>Sets the transparency of a window.
+:param title:
+:param trans: A number in the range 0 - 255. The larger the number,
+    the more transparent the window will become.
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Set Trans By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param handle:
+:param trans:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Wait">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param timeout:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Wait Active">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param timeout:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Wait Active By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param handle:
+:param timeout:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Wait By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param handle:
+:param timeout:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Wait Close">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param timeout:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Wait Close By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param handle:
+:param timeout:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Wait Not Active">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param title:
+:param timeout:
+:param kwargs:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Win Wait Not Active By Handle">
+<arguments>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>:param handle:
+:param timeout:
+:return:</doc>
+<tags>
+</tags>
+</kw>
+</keywordspec>

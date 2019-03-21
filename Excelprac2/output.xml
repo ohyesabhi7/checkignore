@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190317 22:49:09.797" generator="Robot 3.1.1 (Python 2.7.8 on win32)">
+<suite source="E:\Rob\Excelprac" id="s1" name="Excelprac">
+<suite source="E:\Rob\Excelprac\exceldemo.robot" id="s1-s1" name="Exceldemo">
+<test id="s1-s1-t1" name="Tes">
+<kw name="Connect To Database" library="DatabaseLibrary">
+<doc>Loads the DB API 2.0 module given `dbapiModuleName` then uses it to
+connect to the database using `dbName`, `dbUsername`, and `dbPassword`.</doc>
+<arguments>
+<arg>dbConfigFile=C://Users/admin/Desktop/def.cfg</arg>
+</arguments>
+<msg timestamp="20190317 22:49:10.359" level="INFO">Connecting using : pymysql.connect(db=abhi, user=root, passwd=sixerking, host=localhost, port=3306, charset=None) </msg>
+<status status="PASS" endtime="20190317 22:49:11.394" starttime="20190317 22:49:10.343"></status>
+</kw>
+<kw name="Check If Exists In Database" library="DatabaseLibrary">
+<doc>Check if any row would be returned by given the input `selectStatement`. If there are no results, then this will
+throw an AssertionError. Set optional input `sansTran` to True to run command without an explicit transaction
+commit or rollback.</doc>
+<arguments>
+<arg>select * from pets where name='dogu';</arg>
+</arguments>
+<msg timestamp="20190317 22:49:11.394" level="INFO">Executing : Check If Exists In Database  |  select * from pets where name='dogu'; </msg>
+<msg timestamp="20190317 22:49:11.394" level="INFO">Executing : Query  |  select * from pets where name='dogu'; </msg>
+<status status="PASS" endtime="20190317 22:49:11.394" starttime="20190317 22:49:11.394"></status>
+</kw>
+<kw name="Query" library="DatabaseLibrary">
+<doc>Uses the input `selectStatement` to query for the values that will be returned as a list of tuples. Set optional
+input `sansTran` to True to run command without an explicit transaction commit or rollback.
+Set optional input `returnAsDict` to True to return values as a list of dictionaries.</doc>
+<arguments>
+<arg>select * from pets;</arg>
+</arguments>
+<assign>
+<var>@{list}</var>
+</assign>
+<msg timestamp="20190317 22:49:11.394" level="INFO">Executing : Query  |  select * from pets; </msg>
+<msg timestamp="20190317 22:49:11.410" level="INFO">@{list} = [ ('dogu', 'dodzu') ]</msg>
+<status status="PASS" endtime="20190317 22:49:11.410" starttime="20190317 22:49:11.394"></status>
+</kw>
+<kw name="Row Count" library="DatabaseLibrary">
+<doc>Uses the input `selectStatement` to query the database and returns the number of rows from the query. Set
+optional input `sansTran` to True to run command without an explicit transaction commit or rollback.</doc>
+<arguments>
+<arg>select * from pets where name='dogu';</arg>
+</arguments>
+<assign>
+<var>${rowCount}</var>
+</assign>
+<msg timestamp="20190317 22:49:11.410" level="INFO">Executing : Row Count  |  select * from pets where name='dogu'; </msg>
+<msg timestamp="20190317 22:49:11.410" level="INFO">${rowCount} = 1</msg>
+<status status="PASS" endtime="20190317 22:49:11.410" starttime="20190317 22:49:11.410"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${rowCount}</arg>
+</arguments>
+<status status="PASS" endtime="20190317 22:49:11.410" starttime="20190317 22:49:11.410"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>@{list}</arg>
+</arguments>
+<status status="PASS" endtime="20190317 22:49:11.426" starttime="20190317 22:49:11.410"></status>
+</kw>
+<status status="PASS" endtime="20190317 22:49:11.426" critical="yes" starttime="20190317 22:49:10.343"></status>
+</test>
+<status status="PASS" endtime="20190317 22:49:11.426" starttime="20190317 22:49:09.891"></status>
+</suite>
+<status status="PASS" endtime="20190317 22:49:11.426" starttime="20190317 22:49:09.844"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Excelprac" pass="1">Excelprac</stat>
+<stat fail="0" id="s1-s1" name="Exceldemo" pass="1">Excelprac.Exceldemo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
